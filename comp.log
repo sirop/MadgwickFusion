@@ -1,0 +1,3 @@
+Compiling realtime Madgwick.c
+Linking Madgwick.so
+cp Madgwick.so /home/cps/machinekit/rtlib/rt-preempt/

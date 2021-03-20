@@ -1,0 +1,1637 @@
+../Fusion/FusionAhrs.c:38:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionAhrs.c:38:1: error: (this will be reported only once per input file)
+In file included from ../Fusion/FusionAhrs.c:41:0:
+../Fusion/FusionAhrs.h:41:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionAhrs.h:41:1: error: (this will be reported only once per input file)
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/FusionAhrs.c:41:
+../Fusion/FusionTypes.h:13:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionTypes.h:13:1: error: (this will be reported only once per input file)
+../Fusion/FusionTypes.h:16:19: warning: extra tokens at end of #include directive
+ #include <math.h> // M_PI, sqrtf, atan2f, asinf
+                   ^
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/FusionAhrs.c:41:
+../Fusion/FusionTypes.h:17:21: warning: extra tokens at end of #include directive
+ #include <stdint.h> // int32_t
+                     ^
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/FusionAhrs.c:41:
+../Fusion/FusionTypes.h:122:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+        ^~~~~~
+../Fusion/FusionTypes.h:122:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+ ^~~~~~
+../Fusion/FusionTypes.h:122:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:131:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+        ^~~~~~
+../Fusion/FusionTypes.h:131:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+ ^~~~~~
+../Fusion/FusionTypes.h:131:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:144:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+        ^~~~~~
+../Fusion/FusionTypes.h:144:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+ ^~~~~~
+../Fusion/FusionTypes.h:144:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:163:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:163:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:163:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:177:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:177:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:177:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:191:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+        ^~~~~~
+../Fusion/FusionTypes.h:191:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+ ^~~~~~
+../Fusion/FusionTypes.h:191:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:206:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:206:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:206:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:220:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:220:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:220:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:228:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:237:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:237:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:237:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:240:10: warning: extra tokens at end of #undef directive
+ #undef V // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:248:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:248:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:248:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:257:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:257:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:257:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:268:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:268:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:268:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:282:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:282:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:282:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:297:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:297:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:297:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:306:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:318:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:318:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:318:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:327:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:336:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:336:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:336:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:350:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:350:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:350:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:359:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:368:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:368:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:368:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:377:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:389:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:389:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:389:46: error: expected ‘,’ or ‘;’ before ‘FusionRotationMatrix’
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+                                              ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:403:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:413:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:413:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:413:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:420:10: warning: extra tokens at end of #undef directive
+ #undef R // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:431:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:431:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:431:46: error: expected ‘,’ or ‘;’ before ‘FusionRotationMatrix’
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:451:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:459:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:459:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:459:46: error: expected ‘,’ or ‘;’ before ‘FusionEulerAngles’
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:467:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionAhrs.c:42:20: warning: extra tokens at end of #include directive
+ #include <float.h> // FLT_MAX
+                    ^
+../Fusion/FusionAhrs.c:43:19: warning: extra tokens at end of #include directive
+ #include <math.h> // atan2f, cosf, sinf
+                   ^
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/FusionAhrs.c:41:
+../Fusion/FusionAhrs.c: In function ‘FusionAhrsInitialise’:
+../Fusion/FusionTypes.h:94:57: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_QUATERNION_IDENTITY ((FusionQuaternion){ .array = {1.0f, 0.0f, 0.0f, 0.0f} })
+                                                         ^
+../Fusion/FusionAhrs.c:72:30: note: in expansion of macro ‘FUSION_QUATERNION_IDENTITY’
+     fusionAhrs->quaternion = FUSION_QUATERNION_IDENTITY;
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:94:55: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_QUATERNION_IDENTITY ((FusionQuaternion){ .array = {1.0f, 0.0f, 0.0f, 0.0f} })
+                                                       ^
+../Fusion/FusionAhrs.c:72:30: note: in expansion of macro ‘FUSION_QUATERNION_IDENTITY’
+     fusionAhrs->quaternion = FUSION_QUATERNION_IDENTITY;
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:47: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                               ^
+../Fusion/FusionAhrs.c:73:38: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     fusionAhrs->linearAcceleration = FUSION_VECTOR3_ZERO;
+                                      ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:45: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                             ^
+../Fusion/FusionAhrs.c:73:38: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     fusionAhrs->linearAcceleration = FUSION_VECTOR3_ZERO;
+                                      ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c: In function ‘FusionAhrsUpdate’:
+../Fusion/FusionTypes.h:88:47: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                               ^
+../Fusion/FusionAhrs.c:112:39: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     FusionVector3 halfFeedbackError = FUSION_VECTOR3_ZERO; // scaled by 0.5 to avoid repeated multiplications by 2
+                                       ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:45: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                             ^
+../Fusion/FusionAhrs.c:112:39: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     FusionVector3 halfFeedbackError = FUSION_VECTOR3_ZERO; // scaled by 0.5 to avoid repeated multiplications by 2
+                                       ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:121:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.x = Q.x * Q.z - Q.w * Q.y,
+             ^
+../Fusion/FusionAhrs.c:109:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand label for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:121:23: note: in expansion of macro ‘Q’
+             .axis.x = Q.x * Q.z - Q.w * Q.y,
+                       ^
+../Fusion/FusionAhrs.c:120:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+         const FusionVector3 halfGravity = {
+         ^~~~~
+../Fusion/FusionAhrs.c:127:29: warning: implicit declaration of function ‘FusionVectorCrossProduct’ [-Wimplicit-function-declaration]
+         halfFeedbackError = FusionVectorCrossProduct(FusionVectorFastNormalise(accelerometer), halfGravity);
+                             ^~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:127:54: warning: implicit declaration of function ‘FusionVectorFastNormalise’ [-Wimplicit-function-declaration]
+         halfFeedbackError = FusionVectorCrossProduct(FusionVectorFastNormalise(accelerometer), halfGravity);
+                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:127:27: error: incompatible types when assigning to type ‘FusionVector3 {aka union <anonymous>}’ from type ‘int’
+         halfFeedbackError = FusionVectorCrossProduct(FusionVectorFastNormalise(accelerometer), halfGravity);
+                           ^
+../Fusion/FusionAhrs.c:130:52: warning: implicit declaration of function ‘FusionVectorMagnitudeSquared’ [-Wimplicit-function-declaration]
+         const float magnetometerMagnitudeSquared = FusionVectorMagnitudeSquared(magnetometer);
+                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:130:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+         const float magnetometerMagnitudeSquared = FusionVectorMagnitudeSquared(magnetometer);
+         ^~~~~
+../Fusion/FusionAhrs.c:137:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.x = Q.x * Q.y + Q.w * Q.z,
+             ^
+../Fusion/FusionAhrs.c:109:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand label for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:137:23: note: in expansion of macro ‘Q’
+             .axis.x = Q.x * Q.y + Q.w * Q.z,
+                       ^
+../Fusion/FusionAhrs.c:136:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+         const FusionVector3 halfWest = {
+         ^~~~~
+../Fusion/FusionAhrs.c:143:29: warning: implicit declaration of function ‘FusionVectorAdd’ [-Wimplicit-function-declaration]
+         halfFeedbackError = FusionVectorAdd(halfFeedbackError, FusionVectorCrossProduct(FusionVectorFastNormalise(FusionVectorCrossProduct(accelerometer, magnetometer)), halfWest));
+                             ^~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:143:27: error: incompatible types when assigning to type ‘FusionVector3 {aka union <anonymous>}’ from type ‘int’
+         halfFeedbackError = FusionVectorAdd(halfFeedbackError, FusionVectorCrossProduct(FusionVectorFastNormalise(FusionVectorCrossProduct(accelerometer, magnetometer)), halfWest));
+                           ^
+../Fusion/FusionAhrs.c:151:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     float feedbackGain = fusionAhrs->gain;
+     ^~~~~
+../Fusion/FusionAhrs.c:158:35: warning: implicit declaration of function ‘FusionVectorMultiplyScalar’ [-Wimplicit-function-declaration]
+     FusionVector3 halfGyroscope = FusionVectorMultiplyScalar(gyroscope, 0.5f * FusionDegreesToRadians(1.0f));
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:158:80: warning: implicit declaration of function ‘FusionDegreesToRadians’ [-Wimplicit-function-declaration]
+     FusionVector3 halfGyroscope = FusionVectorMultiplyScalar(gyroscope, 0.5f * FusionDegreesToRadians(1.0f));
+                                                                                ^~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:158:35: error: invalid initializer
+     FusionVector3 halfGyroscope = FusionVectorMultiplyScalar(gyroscope, 0.5f * FusionDegreesToRadians(1.0f));
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:158:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     FusionVector3 halfGyroscope = FusionVectorMultiplyScalar(gyroscope, 0.5f * FusionDegreesToRadians(1.0f));
+     ^~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:161:19: error: incompatible types when assigning to type ‘FusionVector3 {aka union <anonymous>}’ from type ‘int’
+     halfGyroscope = FusionVectorAdd(halfGyroscope, FusionVectorMultiplyScalar(halfFeedbackError, feedbackGain));
+                   ^
+../Fusion/FusionAhrs.c:164:30: warning: implicit declaration of function ‘FusionQuaternionAdd’ [-Wimplicit-function-declaration]
+     fusionAhrs->quaternion = FusionQuaternionAdd(fusionAhrs->quaternion, FusionQuaternionMultiplyVector(fusionAhrs->quaternion, FusionVectorMultiplyScalar(halfGyroscope, samplePeriod)));
+                              ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:164:74: warning: implicit declaration of function ‘FusionQuaternionMultiplyVector’ [-Wimplicit-function-declaration]
+     fusionAhrs->quaternion = FusionQuaternionAdd(fusionAhrs->quaternion, FusionQuaternionMultiplyVector(fusionAhrs->quaternion, FusionVectorMultiplyScalar(halfGyroscope, samplePeriod)));
+                                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:164:28: error: incompatible types when assigning to type ‘FusionQuaternion {aka union <anonymous>}’ from type ‘int’
+     fusionAhrs->quaternion = FusionQuaternionAdd(fusionAhrs->quaternion, FusionQuaternionMultiplyVector(fusionAhrs->quaternion, FusionVectorMultiplyScalar(halfGyroscope, samplePeriod)));
+                            ^
+../Fusion/FusionAhrs.c:167:30: warning: implicit declaration of function ‘FusionQuaternionFastNormalise’ [-Wimplicit-function-declaration]
+     fusionAhrs->quaternion = FusionQuaternionFastNormalise(fusionAhrs->quaternion);
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:167:28: error: incompatible types when assigning to type ‘FusionQuaternion {aka union <anonymous>}’ from type ‘int’
+     fusionAhrs->quaternion = FusionQuaternionFastNormalise(fusionAhrs->quaternion);
+                            ^
+../Fusion/FusionAhrs.c:171:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+         .axis.x = 2.0f * (Q.x * Q.z - Q.w * Q.y),
+         ^
+../Fusion/FusionAhrs.c:109:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand label for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:171:27: note: in expansion of macro ‘Q’
+         .axis.x = 2.0f * (Q.x * Q.z - Q.w * Q.y),
+                           ^
+../Fusion/FusionAhrs.c:172:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+         .axis.y = 2.0f * (Q.w * Q.x + Q.y * Q.z),
+         ^
+../Fusion/FusionAhrs.c:109:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand label for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:172:27: note: in expansion of macro ‘Q’
+         .axis.y = 2.0f * (Q.w * Q.x + Q.y * Q.z),
+                           ^
+../Fusion/FusionAhrs.c:173:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+         .axis.z = 2.0f * (Q.w * Q.w - 0.5f + Q.z * Q.z),
+         ^
+../Fusion/FusionAhrs.c:109:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand label for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:173:27: note: in expansion of macro ‘Q’
+         .axis.z = 2.0f * (Q.w * Q.w - 0.5f + Q.z * Q.z),
+                           ^
+../Fusion/FusionAhrs.c:170:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     const FusionVector3 gravity = {
+     ^~~~~
+../Fusion/FusionAhrs.c:175:38: warning: implicit declaration of function ‘FusionVectorSubtract’ [-Wimplicit-function-declaration]
+     fusionAhrs->linearAcceleration = FusionVectorSubtract(accelerometer, gravity);
+                                      ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:175:36: error: incompatible types when assigning to type ‘FusionVector3 {aka union <anonymous>}’ from type ‘int’
+     fusionAhrs->linearAcceleration = FusionVectorSubtract(accelerometer, gravity);
+                                    ^
+../Fusion/FusionAhrs.c:177:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/FusionAhrs.c:41:
+../Fusion/FusionAhrs.c: In function ‘FusionAhrsUpdateWithoutMagnetometer’:
+../Fusion/FusionTypes.h:88:47: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                               ^
+../Fusion/FusionAhrs.c:192:60: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     FusionAhrsUpdate(fusionAhrs, gyroscope, accelerometer, FUSION_VECTOR3_ZERO, samplePeriod);
+                                                            ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:45: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                             ^
+../Fusion/FusionAhrs.c:192:60: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     FusionAhrsUpdate(fusionAhrs, gyroscope, accelerometer, FUSION_VECTOR3_ZERO, samplePeriod);
+                                                            ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c: In function ‘FusionAhrsGetQuaternion’:
+../Fusion/FusionAhrs.c:211:12: warning: implicit declaration of function ‘FusionQuaternionConjugate’ [-Wimplicit-function-declaration]
+     return FusionQuaternionConjugate(fusionAhrs->quaternion);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:211:12: error: incompatible types when returning type ‘int’ but ‘FusionQuaternion {aka union <anonymous>}’ was expected
+     return FusionQuaternionConjugate(fusionAhrs->quaternion);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c: In function ‘FusionAhrsGetEarthAcceleration’:
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:233:24: note: in expansion of macro ‘Q’
+     const float qwqw = Q.w * Q.w; // calculate common terms to avoid repeated operations
+                        ^
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:234:24: note: in expansion of macro ‘Q’
+     const float qwqx = Q.w * Q.x;
+                        ^
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:235:24: note: in expansion of macro ‘Q’
+     const float qwqy = Q.w * Q.y;
+                        ^
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:236:24: note: in expansion of macro ‘Q’
+     const float qwqz = Q.w * Q.z;
+                        ^
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:237:24: note: in expansion of macro ‘Q’
+     const float qxqy = Q.x * Q.y;
+                        ^
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:238:24: note: in expansion of macro ‘Q’
+     const float qxqz = Q.x * Q.z;
+                        ^
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:239:24: note: in expansion of macro ‘Q’
+     const float qyqz = Q.y * Q.z;
+                        ^
+../Fusion/FusionAhrs.c:241:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+         .axis.x = 2.0f * ((qwqw - 0.5f + Q.x * Q.x) * A.x + (qxqy - qwqz) * A.y + (qxqz + qwqy) * A.z),
+         ^
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:241:42: note: in expansion of macro ‘Q’
+         .axis.x = 2.0f * ((qwqw - 0.5f + Q.x * Q.x) * A.x + (qxqy - qwqz) * A.y + (qxqz + qwqy) * A.z),
+                                          ^
+../Fusion/FusionAhrs.c:242:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+         .axis.y = 2.0f * ((qxqy + qwqz) * A.x + (qwqw - 0.5f + Q.y * Q.y) * A.y + (qyqz - qwqx) * A.z),
+         ^
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:242:64: note: in expansion of macro ‘Q’
+         .axis.y = 2.0f * ((qxqy + qwqz) * A.x + (qwqw - 0.5f + Q.y * Q.y) * A.y + (qyqz - qwqx) * A.z),
+                                                                ^
+../Fusion/FusionAhrs.c:243:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+         .axis.z = 2.0f * ((qxqz - qwqy) * A.x + (qyqz + qwqx) * A.y + (qwqw - 0.5f + Q.z * Q.z) * A.z),
+         ^
+../Fusion/FusionAhrs.c:231:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand labels for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:243:86: note: in expansion of macro ‘Q’
+         .axis.z = 2.0f * ((qxqz - qwqy) * A.x + (qyqz + qwqx) * A.y + (qwqw - 0.5f + Q.z * Q.z) * A.z),
+                                                                                      ^
+../Fusion/FusionAhrs.c:246:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/FusionAhrs.c:41:
+../Fusion/FusionAhrs.c: In function ‘FusionAhrsReinitialise’:
+../Fusion/FusionTypes.h:94:57: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_QUATERNION_IDENTITY ((FusionQuaternion){ .array = {1.0f, 0.0f, 0.0f, 0.0f} })
+                                                         ^
+../Fusion/FusionAhrs.c:255:30: note: in expansion of macro ‘FUSION_QUATERNION_IDENTITY’
+     fusionAhrs->quaternion = FUSION_QUATERNION_IDENTITY;
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:94:55: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_QUATERNION_IDENTITY ((FusionQuaternion){ .array = {1.0f, 0.0f, 0.0f, 0.0f} })
+                                                       ^
+../Fusion/FusionAhrs.c:255:30: note: in expansion of macro ‘FUSION_QUATERNION_IDENTITY’
+     fusionAhrs->quaternion = FUSION_QUATERNION_IDENTITY;
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:47: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                               ^
+../Fusion/FusionAhrs.c:256:38: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     fusionAhrs->linearAcceleration = FUSION_VECTOR3_ZERO;
+                                      ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:45: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                             ^
+../Fusion/FusionAhrs.c:256:38: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     fusionAhrs->linearAcceleration = FUSION_VECTOR3_ZERO;
+                                      ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c: In function ‘FusionAhrsSetYaw’:
+../Fusion/FusionAhrs.c:278:30: warning: implicit declaration of function ‘FusionQuaternionNormalise’ [-Wimplicit-function-declaration]
+     fusionAhrs->quaternion = FusionQuaternionNormalise(fusionAhrs->quaternion); // quaternion must be normalised accurately (approximation not sufficient)
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:278:28: error: incompatible types when assigning to type ‘FusionQuaternion {aka union <anonymous>}’ from type ‘int’
+     fusionAhrs->quaternion = FusionQuaternionNormalise(fusionAhrs->quaternion); // quaternion must be normalised accurately (approximation not sufficient)
+                            ^
+../Fusion/FusionAhrs.c:279:30: warning: implicit declaration of function ‘atan2f’ [-Wimplicit-function-declaration]
+     const float inverseYaw = atan2f(Q.x * Q.y + Q.w * Q.z, Q.w * Q.w - 0.5f + Q.x * Q.x); // Euler angle of conjugate
+                              ^~~~~~
+../Fusion/FusionAhrs.c:277:43: error: expected expression before ‘/’ token
+ #define Q fusionAhrs->quaternion.element // define shorthand label for more readable code
+                                           ^
+../Fusion/FusionAhrs.c:279:37: note: in expansion of macro ‘Q’
+     const float inverseYaw = atan2f(Q.x * Q.y + Q.w * Q.z, Q.w * Q.w - 0.5f + Q.x * Q.x); // Euler angle of conjugate
+                                     ^
+../Fusion/FusionAhrs.c:279:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     const float inverseYaw = atan2f(Q.x * Q.y + Q.w * Q.z, Q.w * Q.w - 0.5f + Q.x * Q.x); // Euler angle of conjugate
+     ^~~~~
+../Fusion/FusionAhrs.c:282:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+         .element.w = cosf(halfInverseYawMinusOffset),
+         ^
+../Fusion/FusionAhrs.c:282:22: warning: implicit declaration of function ‘cosf’ [-Wimplicit-function-declaration]
+         .element.w = cosf(halfInverseYawMinusOffset),
+                      ^~~~
+../Fusion/FusionAhrs.c:282:22: warning: initializer element is not computable at load time [-Wpedantic]
+../Fusion/FusionAhrs.c:283:9: warning: initializer element is not computable at load time [-Wpedantic]
+         .element.x = 0.0f,
+         ^
+../Fusion/FusionAhrs.c:283:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+../Fusion/FusionAhrs.c:284:9: warning: initializer element is not computable at load time [-Wpedantic]
+         .element.y = 0.0f,
+         ^
+../Fusion/FusionAhrs.c:284:9: warning: initializer element is not computable at load time [-Wpedantic]
+../Fusion/FusionAhrs.c:284:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+../Fusion/FusionAhrs.c:285:9: warning: initializer element is not computable at load time [-Wpedantic]
+         .element.z = -1.0f * sinf(halfInverseYawMinusOffset),
+         ^
+../Fusion/FusionAhrs.c:285:9: warning: initializer element is not computable at load time [-Wpedantic]
+../Fusion/FusionAhrs.c:285:9: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+../Fusion/FusionAhrs.c:285:30: warning: implicit declaration of function ‘sinf’ [-Wimplicit-function-declaration]
+         .element.z = -1.0f * sinf(halfInverseYawMinusOffset),
+                              ^~~~
+../Fusion/FusionAhrs.c:285:22: warning: initializer element is not computable at load time [-Wpedantic]
+         .element.z = -1.0f * sinf(halfInverseYawMinusOffset),
+                      ^
+../Fusion/FusionAhrs.c:286:5: warning: initializer element is not computable at load time [-Wpedantic]
+     };
+     ^
+../Fusion/FusionAhrs.c:286:5: warning: initializer element is not computable at load time [-Wpedantic]
+../Fusion/FusionAhrs.c:286:5: warning: initializer element is not computable at load time [-Wpedantic]
+../Fusion/FusionAhrs.c:287:30: warning: implicit declaration of function ‘FusionQuaternionMultiply’ [-Wimplicit-function-declaration]
+     fusionAhrs->quaternion = FusionQuaternionMultiply(inverseYawQuaternion, fusionAhrs->quaternion);
+                              ^~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionAhrs.c:287:28: error: incompatible types when assigning to type ‘FusionQuaternion {aka union <anonymous>}’ from type ‘int’
+     fusionAhrs->quaternion = FusionQuaternionMultiply(inverseYawQuaternion, fusionAhrs->quaternion);
+                            ^
+../Fusion/FusionAhrs.c:288:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionAhrs.c: In function ‘FusionAhrsGetQuaternion’:
+../Fusion/FusionAhrs.c:212:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/FusionAhrs.c:41:
+At top level:
+../Fusion/FusionTypes.h:459:8: warning: ‘inline’ defined but not used [-Wunused-variable]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionBias.c:10:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionBias.c:10:1: error: (this will be reported only once per input file)
+In file included from ../Fusion/FusionBias.c:13:0:
+../Fusion/FusionBias.h:13:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionBias.h:13:1: error: (this will be reported only once per input file)
+In file included from ../Fusion/FusionBias.h:16:0,
+                 from ../Fusion/FusionBias.c:13:
+../Fusion/FusionTypes.h:13:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionTypes.h:13:1: error: (this will be reported only once per input file)
+../Fusion/FusionTypes.h:16:19: warning: extra tokens at end of #include directive
+ #include <math.h> // M_PI, sqrtf, atan2f, asinf
+                   ^
+In file included from ../Fusion/FusionBias.h:16:0,
+                 from ../Fusion/FusionBias.c:13:
+../Fusion/FusionTypes.h:17:21: warning: extra tokens at end of #include directive
+ #include <stdint.h> // int32_t
+                     ^
+In file included from ../Fusion/FusionBias.h:16:0,
+                 from ../Fusion/FusionBias.c:13:
+../Fusion/FusionTypes.h:122:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+        ^~~~~~
+../Fusion/FusionTypes.h:122:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+ ^~~~~~
+../Fusion/FusionTypes.h:122:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:131:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+        ^~~~~~
+../Fusion/FusionTypes.h:131:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+ ^~~~~~
+../Fusion/FusionTypes.h:131:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:144:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+        ^~~~~~
+../Fusion/FusionTypes.h:144:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+ ^~~~~~
+../Fusion/FusionTypes.h:144:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:163:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:163:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:163:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:177:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:177:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:177:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:191:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+        ^~~~~~
+../Fusion/FusionTypes.h:191:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+ ^~~~~~
+../Fusion/FusionTypes.h:191:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:206:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:206:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:206:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:220:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:220:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:220:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:228:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:237:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:237:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:237:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:240:10: warning: extra tokens at end of #undef directive
+ #undef V // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:248:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:248:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:248:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:257:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:257:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:257:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:268:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:268:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:268:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:282:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:282:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:282:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:297:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:297:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:297:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:306:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:318:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:318:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:318:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:327:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:336:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:336:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:336:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:350:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:350:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:350:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:359:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:368:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:368:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:368:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:377:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:389:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:389:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:389:46: error: expected ‘,’ or ‘;’ before ‘FusionRotationMatrix’
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+                                              ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:403:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:413:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:413:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:413:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:420:10: warning: extra tokens at end of #undef directive
+ #undef R // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:431:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:431:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:431:46: error: expected ‘,’ or ‘;’ before ‘FusionRotationMatrix’
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:451:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:459:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:459:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:459:46: error: expected ‘,’ or ‘;’ before ‘FusionEulerAngles’
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:467:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionBias.c:14:19: warning: extra tokens at end of #include directive
+ #include "math.h" // fabs
+                   ^
+In file included from ../Fusion/FusionBias.h:16:0,
+                 from ../Fusion/FusionBias.c:13:
+../Fusion/FusionBias.c: In function ‘FusionBiasInitialise’:
+../Fusion/FusionTypes.h:88:47: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                               ^
+../Fusion/FusionBias.c:47:33: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     fusionBias->gyroscopeBias = FUSION_VECTOR3_ZERO;
+                                 ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:45: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                             ^
+../Fusion/FusionBias.c:47:33: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+     fusionBias->gyroscopeBias = FUSION_VECTOR3_ZERO;
+                                 ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionBias.c: In function ‘FusionBiasUpdate’:
+../Fusion/FusionBias.c:60:17: warning: implicit declaration of function ‘FusionVectorSubtract’ [-Wimplicit-function-declaration]
+     gyroscope = FusionVectorSubtract(gyroscope, fusionBias->gyroscopeBias);
+                 ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionBias.c:60:15: error: incompatible types when assigning to type ‘FusionVector3 {aka union <anonymous>}’ from type ‘int’
+     gyroscope = FusionVectorSubtract(gyroscope, fusionBias->gyroscopeBias);
+               ^
+../Fusion/FusionBias.c:75:33: warning: implicit declaration of function ‘FusionVectorAdd’ [-Wimplicit-function-declaration]
+     fusionBias->gyroscopeBias = FusionVectorAdd(fusionBias->gyroscopeBias, FusionVectorMultiplyScalar(gyroscope, fusionBias->filterCoefficient));
+                                 ^~~~~~~~~~~~~~~
+../Fusion/FusionBias.c:75:76: warning: implicit declaration of function ‘FusionVectorMultiplyScalar’ [-Wimplicit-function-declaration]
+     fusionBias->gyroscopeBias = FusionVectorAdd(fusionBias->gyroscopeBias, FusionVectorMultiplyScalar(gyroscope, fusionBias->filterCoefficient));
+                                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionBias.c:75:31: error: incompatible types when assigning to type ‘FusionVector3 {aka union <anonymous>}’ from type ‘int’
+     fusionBias->gyroscopeBias = FusionVectorAdd(fusionBias->gyroscopeBias, FusionVectorMultiplyScalar(gyroscope, fusionBias->filterCoefficient));
+                               ^
+In file included from ../Fusion/FusionBias.h:16:0,
+                 from ../Fusion/FusionBias.c:13:
+At top level:
+../Fusion/FusionTypes.h:459:8: warning: ‘inline’ defined but not used [-Wunused-variable]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionCompass.c:9:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionCompass.c:9:1: error: (this will be reported only once per input file)
+In file included from ../Fusion/FusionCompass.c:12:0:
+../Fusion/FusionCompass.h:12:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionCompass.h:12:1: error: (this will be reported only once per input file)
+In file included from ../Fusion/FusionCompass.h:15:0,
+                 from ../Fusion/FusionCompass.c:12:
+../Fusion/FusionTypes.h:13:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionTypes.h:13:1: error: (this will be reported only once per input file)
+../Fusion/FusionTypes.h:16:19: warning: extra tokens at end of #include directive
+ #include <math.h> // M_PI, sqrtf, atan2f, asinf
+                   ^
+In file included from ../Fusion/FusionCompass.h:15:0,
+                 from ../Fusion/FusionCompass.c:12:
+../Fusion/FusionTypes.h:17:21: warning: extra tokens at end of #include directive
+ #include <stdint.h> // int32_t
+                     ^
+In file included from ../Fusion/FusionCompass.h:15:0,
+                 from ../Fusion/FusionCompass.c:12:
+../Fusion/FusionTypes.h:122:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+        ^~~~~~
+../Fusion/FusionTypes.h:122:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+ ^~~~~~
+../Fusion/FusionTypes.h:122:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:131:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+        ^~~~~~
+../Fusion/FusionTypes.h:131:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+ ^~~~~~
+../Fusion/FusionTypes.h:131:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:144:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+        ^~~~~~
+../Fusion/FusionTypes.h:144:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+ ^~~~~~
+../Fusion/FusionTypes.h:144:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:163:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:163:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:163:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:177:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:177:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:177:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:191:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+        ^~~~~~
+../Fusion/FusionTypes.h:191:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+ ^~~~~~
+../Fusion/FusionTypes.h:191:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:206:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:206:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:206:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:220:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:220:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:220:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:228:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:237:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:237:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:237:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:240:10: warning: extra tokens at end of #undef directive
+ #undef V // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:248:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:248:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:248:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:257:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:257:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:257:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:268:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:268:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:268:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:282:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:282:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:282:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:297:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:297:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:297:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:306:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:318:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:318:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:318:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:327:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:336:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:336:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:336:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:350:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:350:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:350:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:359:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:368:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:368:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:368:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:377:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:389:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:389:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:389:46: error: expected ‘,’ or ‘;’ before ‘FusionRotationMatrix’
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+                                              ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:403:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:413:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:413:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:413:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:420:10: warning: extra tokens at end of #undef directive
+ #undef R // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:431:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:431:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:431:46: error: expected ‘,’ or ‘;’ before ‘FusionRotationMatrix’
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:451:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:459:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:459:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:459:46: error: expected ‘,’ or ‘;’ before ‘FusionEulerAngles’
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:467:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionCompass.c:13:19: warning: extra tokens at end of #include directive
+ #include <math.h> // atan2f
+                   ^
+../Fusion/FusionCompass.c: In function ‘FusionCompassCalculateHeading’:
+../Fusion/FusionCompass.c:27:40: warning: implicit declaration of function ‘FusionVectorFastNormalise’ [-Wimplicit-function-declaration]
+     const FusionVector3 magneticWest = FusionVectorFastNormalise(FusionVectorCrossProduct(accelerometer, magnetometer));
+                                        ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionCompass.c:27:66: warning: implicit declaration of function ‘FusionVectorCrossProduct’ [-Wimplicit-function-declaration]
+     const FusionVector3 magneticWest = FusionVectorFastNormalise(FusionVectorCrossProduct(accelerometer, magnetometer));
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionCompass.c:27:40: error: invalid initializer
+     const FusionVector3 magneticWest = FusionVectorFastNormalise(FusionVectorCrossProduct(accelerometer, magnetometer));
+                                        ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionCompass.c:30:41: error: invalid initializer
+     const FusionVector3 magneticNorth = FusionVectorFastNormalise(FusionVectorCrossProduct(magneticWest, accelerometer));
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionCompass.c:33:12: warning: implicit declaration of function ‘FusionRadiansToDegrees’ [-Wimplicit-function-declaration]
+     return FusionRadiansToDegrees(atan2f(magneticWest.axis.x, magneticNorth.axis.x));
+            ^~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionCompass.c:33:35: warning: implicit declaration of function ‘atan2f’ [-Wimplicit-function-declaration]
+     return FusionRadiansToDegrees(atan2f(magneticWest.axis.x, magneticNorth.axis.x));
+                                   ^~~~~~
+In file included from ../Fusion/FusionCompass.h:15:0,
+                 from ../Fusion/FusionCompass.c:12:
+At top level:
+../Fusion/FusionTypes.h:459:8: warning: ‘inline’ defined but not used [-Wunused-variable]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+        ^~~~~~
+In file included from ExampleAhrs.c:1:0:
+../Fusion/Fusion.h:18:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/Fusion.h:18:1: error: (this will be reported only once per input file)
+In file included from ../Fusion/Fusion.h:25:0,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionAhrs.h:41:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionAhrs.h:41:1: error: (this will be reported only once per input file)
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/Fusion.h:25,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionTypes.h:13:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionTypes.h:13:1: error: (this will be reported only once per input file)
+../Fusion/FusionTypes.h:16:19: warning: extra tokens at end of #include directive
+ #include <math.h> // M_PI, sqrtf, atan2f, asinf
+                   ^
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/Fusion.h:25,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionTypes.h:17:21: warning: extra tokens at end of #include directive
+ #include <stdint.h> // int32_t
+                     ^
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/Fusion.h:25,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionTypes.h:122:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+        ^~~~~~
+../Fusion/FusionTypes.h:122:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+ ^~~~~~
+../Fusion/FusionTypes.h:122:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:131:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+        ^~~~~~
+../Fusion/FusionTypes.h:131:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+ ^~~~~~
+../Fusion/FusionTypes.h:131:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:144:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+        ^~~~~~
+../Fusion/FusionTypes.h:144:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+ ^~~~~~
+../Fusion/FusionTypes.h:144:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:163:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:163:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:163:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:177:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:177:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:177:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:191:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+        ^~~~~~
+../Fusion/FusionTypes.h:191:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+ ^~~~~~
+../Fusion/FusionTypes.h:191:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const FusionVector3 vector, const float scalar) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:206:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:206:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:206:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:220:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:220:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:220:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const FusionVector3 vectorA, const FusionVector3 vectorB) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:228:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:237:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:237:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:237:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVector3 vector) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:240:10: warning: extra tokens at end of #undef directive
+ #undef V // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:248:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:248:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:248:46: error: expected ‘,’ or ‘;’ before ‘float’
+ static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vector) {
+                                              ^~~~~
+../Fusion/FusionTypes.h:257:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:257:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:257:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:268:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:268:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:268:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:282:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:282:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:282:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:297:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:297:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:297:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const FusionQuaternion quaternionA, const FusionQuaternion quaternionB) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:306:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:318:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:318:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:318:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(const FusionQuaternion quaternion, const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:327:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand labels
+          ^
+../Fusion/FusionTypes.h:336:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:336:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:336:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:350:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:350:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:350:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:359:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:368:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:368:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:368:46: error: expected ‘,’ or ‘;’ before ‘FusionQuaternion’
+ static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:377:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:389:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+        ^~~~~~
+../Fusion/FusionTypes.h:389:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+ ^~~~~~
+../Fusion/FusionTypes.h:389:46: error: expected ‘,’ or ‘;’ before ‘FusionRotationMatrix’
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(const FusionRotationMatrix rotationMatrixA, const FusionRotationMatrix rotationMatrixB) {
+                                              ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:403:10: warning: extra tokens at end of #undef directive
+ #undef A // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:413:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+        ^~~~~~
+../Fusion/FusionTypes.h:413:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+ ^~~~~~
+../Fusion/FusionTypes.h:413:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(const FusionRotationMatrix rotationMatrix, const FusionVector3 vector) {
+                                              ^~~~~~~~~~~~~
+../Fusion/FusionTypes.h:420:10: warning: extra tokens at end of #undef directive
+ #undef R // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:431:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:431:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:431:46: error: expected ‘,’ or ‘;’ before ‘FusionRotationMatrix’
+ static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatrix(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:451:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+../Fusion/FusionTypes.h:459:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+        ^~~~~~
+../Fusion/FusionTypes.h:459:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+ ^~~~~~
+../Fusion/FusionTypes.h:459:46: error: expected ‘,’ or ‘;’ before ‘FusionEulerAngles’
+ static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(const FusionQuaternion quaternion) {
+                                              ^~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:467:10: warning: extra tokens at end of #undef directive
+ #undef Q // undefine shorthand label
+          ^
+In file included from ../Fusion/Fusion.h:26:0,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionBias.h:13:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionBias.h:13:1: error: (this will be reported only once per input file)
+In file included from ../Fusion/Fusion.h:27:0,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionCalibration.h:13:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionCalibration.h:13:1: error: (this will be reported only once per input file)
+../Fusion/FusionCalibration.h:31:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionCalibrationInertial(const FusionVector3 uncalibrated, const FusionRotationMatrix misalignment, const FusionVector3 sensitivity, const FusionVector3 bias) {
+        ^~~~~~
+../Fusion/FusionCalibration.h:31:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionCalibrationInertial(const FusionVector3 uncalibrated, const FusionRotationMatrix misalignment, const FusionVector3 sensitivity, const FusionVector3 bias) {
+ ^~~~~~
+../Fusion/FusionCalibration.h:31:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionCalibrationInertial(const FusionVector3 uncalibrated, const FusionRotationMatrix misalignment, const FusionVector3 sensitivity, const FusionVector3 bias) {
+                                              ^~~~~~~~~~~~~
+In file included from ../Fusion/Fusion.h:27:0,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionCalibration.h:42:8: warning: type defaults to ‘int’ in declaration of ‘inline’ [-Wimplicit-int]
+ static inline __attribute__((always_inline)) FusionVector3 FusionCalibrationMagnetic(const FusionVector3 uncalibrated, const FusionRotationMatrix softIronMatrix, const FusionVector3 hardIronBias) {
+        ^~~~~~
+../Fusion/FusionCalibration.h:42:1: warning: ‘always_inline’ attribute ignored [-Wattributes]
+ static inline __attribute__((always_inline)) FusionVector3 FusionCalibrationMagnetic(const FusionVector3 uncalibrated, const FusionRotationMatrix softIronMatrix, const FusionVector3 hardIronBias) {
+ ^~~~~~
+../Fusion/FusionCalibration.h:42:46: error: expected ‘,’ or ‘;’ before ‘FusionVector3’
+ static inline __attribute__((always_inline)) FusionVector3 FusionCalibrationMagnetic(const FusionVector3 uncalibrated, const FusionRotationMatrix softIronMatrix, const FusionVector3 hardIronBias) {
+                                              ^~~~~~~~~~~~~
+In file included from ../Fusion/Fusion.h:28:0,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionCompass.h:12:1: error: C++ style comments are not allowed in ISO C90
+ //------------------------------------------------------------------------------
+ ^
+../Fusion/FusionCompass.h:12:1: error: (this will be reported only once per input file)
+ExampleAhrs.c:7:29: error: C++ style comments are not allowed in ISO C90
+ float samplePeriod = 0.01f; // replace this value with actual sample period in seconds
+                             ^
+ExampleAhrs.c:7:29: error: (this will be reported only once per input file)
+ExampleAhrs.c:10:5: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+     .axis.x = 1.0f,
+     ^
+ExampleAhrs.c:11:5: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+     .axis.y = 1.0f,
+     ^
+ExampleAhrs.c:12:5: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+     .axis.z = 1.0f,
+     ^
+ExampleAhrs.c:16:5: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+     .axis.x = 1.0f,
+     ^
+ExampleAhrs.c:17:5: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+     .axis.y = 1.0f,
+     ^
+ExampleAhrs.c:18:5: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+     .axis.z = 1.0f,
+     ^
+ExampleAhrs.c:22:5: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+     .axis.x = 0.0f,
+     ^
+ExampleAhrs.c:23:5: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+     .axis.y = 0.0f,
+     ^
+ExampleAhrs.c:24:5: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+     .axis.z = 0.0f,
+     ^
+ExampleAhrs.c: In function ‘main’:
+ExampleAhrs.c:43:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.x = 0.0f, /* replace this value with actual gyroscope x axis measurement in lsb */
+             ^
+ExampleAhrs.c:44:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.y = 0.0f, /* replace this value with actual gyroscope y axis measurement in lsb */
+             ^
+ExampleAhrs.c:45:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.z = 0.0f, /* replace this value with actual gyroscope z axis measurement in lsb */
+             ^
+ExampleAhrs.c:47:45: warning: implicit declaration of function ‘FusionCalibrationInertial’ [-Wimplicit-function-declaration]
+         FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/Fusion.h:25,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionTypes.h:100:66: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+                                                                  ^
+ExampleAhrs.c:47:94: note: in expansion of macro ‘FUSION_ROTATION_MATRIX_IDENTITY’
+         FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:100:64: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+                                                                ^
+ExampleAhrs.c:47:94: note: in expansion of macro ‘FUSION_ROTATION_MATRIX_IDENTITY’
+         FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:47: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                               ^
+ExampleAhrs.c:47:149: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+         FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+                                                                                                                                                     ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:45: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                             ^
+ExampleAhrs.c:47:149: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+         FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+                                                                                                                                                     ^~~~~~~~~~~~~~~~~~~
+ExampleAhrs.c:47:45: error: invalid initializer
+         FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~
+ExampleAhrs.c:51:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.x = 0.0f, /* replace this value with actual accelerometer x axis measurement in lsb */
+             ^
+ExampleAhrs.c:52:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.y = 0.0f, /* replace this value with actual accelerometer y axis measurement in lsb */
+             ^
+ExampleAhrs.c:53:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.z = 1.0f, /* replace this value with actual accelerometer z axis measurement in lsb */
+             ^
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/Fusion.h:25,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionTypes.h:100:66: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+                                                                  ^
+ExampleAhrs.c:55:102: note: in expansion of macro ‘FUSION_ROTATION_MATRIX_IDENTITY’
+         FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+                                                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:100:64: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+                                                                ^
+ExampleAhrs.c:55:102: note: in expansion of macro ‘FUSION_ROTATION_MATRIX_IDENTITY’
+         FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+                                                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:47: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                               ^
+ExampleAhrs.c:55:161: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+         FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+                                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:88:45: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} })
+                                             ^
+ExampleAhrs.c:55:161: note: in expansion of macro ‘FUSION_VECTOR3_ZERO’
+         FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+                                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~
+ExampleAhrs.c:55:49: error: invalid initializer
+         FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+ExampleAhrs.c:59:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.x = 0.5f, /* replace this value with actual magnetometer x axis measurement in uT */
+             ^
+ExampleAhrs.c:60:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.y = 0.0f, /* replace this value with actual magnetometer y axis measurement in uT */
+             ^
+ExampleAhrs.c:61:13: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+             .axis.z = 0.0f, /* replace this value with actual magnetometer z axis measurement in uT */
+             ^
+ExampleAhrs.c:63:48: warning: implicit declaration of function ‘FusionCalibrationMagnetic’ [-Wimplicit-function-declaration]
+         FusionVector3 calibratedMagnetometer = FusionCalibrationMagnetic(uncalibratedMagnetometer, FUSION_ROTATION_MATRIX_IDENTITY, hardIronBias);
+                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Fusion/FusionAhrs.h:44:0,
+                 from ../Fusion/Fusion.h:25,
+                 from ExampleAhrs.c:1:
+../Fusion/FusionTypes.h:100:66: warning: ISO C90 forbids specifying subobject to initialize [-Wpedantic]
+ #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+                                                                  ^
+ExampleAhrs.c:63:100: note: in expansion of macro ‘FUSION_ROTATION_MATRIX_IDENTITY’
+         FusionVector3 calibratedMagnetometer = FusionCalibrationMagnetic(uncalibratedMagnetometer, FUSION_ROTATION_MATRIX_IDENTITY, hardIronBias);
+                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Fusion/FusionTypes.h:100:64: warning: ISO C90 forbids compound literals [-Wpedantic]
+ #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+                                                                ^
+ExampleAhrs.c:63:100: note: in expansion of macro ‘FUSION_ROTATION_MATRIX_IDENTITY’
+         FusionVector3 calibratedMagnetometer = FusionCalibrationMagnetic(uncalibratedMagnetometer, FUSION_ROTATION_MATRIX_IDENTITY, hardIronBias);
+                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ExampleAhrs.c:63:48: error: invalid initializer
+         FusionVector3 calibratedMagnetometer = FusionCalibrationMagnetic(uncalibratedMagnetometer, FUSION_ROTATION_MATRIX_IDENTITY, hardIronBias);
+                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+ExampleAhrs.c:72:41: warning: implicit declaration of function ‘FusionQuaternionToEulerAngles’ [-Wimplicit-function-declaration]
+         FusionEulerAngles eulerAngles = FusionQuaternionToEulerAngles(FusionAhrsGetQuaternion(&fusionAhrs));
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ExampleAhrs.c:72:41: error: invalid initializer
+ExampleAhrs.c:72:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+         FusionEulerAngles eulerAngles = FusionQuaternionToEulerAngles(FusionAhrsGetQuaternion(&fusionAhrs));
+         ^~~~~~~~~~~~~~~~~
+ExampleAhrs.c:76:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+In file included from ../Fusion/Fusion.h:27:0,
+                 from ExampleAhrs.c:1:
+At top level:
+../Fusion/FusionCalibration.h:42:8: warning: ‘inline’ defined but not used [-Wunused-variable]
+ static inline __attribute__((always_inline)) FusionVector3 FusionCalibrationMagnetic(const FusionVector3 uncalibrated, const FusionRotationMatrix softIronMatrix, const FusionVector3 hardIronBias) {
+        ^~~~~~

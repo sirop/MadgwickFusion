@@ -1,0 +1,6 @@
+Compiling realtime Fusion/FusionAhrs.c
+Compiling realtime Fusion/FusionBias.c
+Compiling realtime Fusion/FusionCompass.c
+Compiling realtime Madgwick_main.c
+Linking Madgwick.so
+cp Madgwick.so /home/cps/machinekit/rtlib/rt-preempt/

@@ -1,0 +1,57 @@
+# components
+
+
+# signals
+
+# nets
+
+# parameter values
+
+# realtime thread/function links
+
+
+
+#### Ecat_IO_Slave_Dev.hal
+
+# components
+
+# Load PDO configuration function
+
+loadusr -W lcec_conf  ../lcec.xml     # Load SDO/PDOs across network as per xml file
+unload lcec_conf    # Unload once it has run as it si not required once PDOs are setup
+loadrt lcec	        # Start PDO component	
+loadrt madgwick
+
+##threads  Creates the rt task list
+
+newthread main-thread fp 1000000    # 1000 updates per second
+
+addf lcec.read-all main-thread			# Attach EtherCat PDO read function
+addf madgwick.updateAHRS main-thread
+#addf madgwick.updateAHRS_NonMag main-thread
+# run rt function here.
+# addf wheel.update main-thread
+addf lcec.write-all main-thread			# Attach EtherCat PDO write function
+
+
+net angVx_raw     lcec.0.0.tdkag_gx_dps_u madgwick.gyroX 
+net angVy_raw     lcec.0.0.tdkag_gy_dps_u  madgwick.gyroY 
+net angVz_raw     lcec.0.0.tdkag_gz_dps_u  madgwick.gyroZ     
+
+net accX_raw       lcec.0.0.tdkag_ax_g_u madgwick.accelX
+net accY_raw       lcec.0.0.tdkag_ay_g_u madgwick.accelY
+net accZ_raw       lcec.0.0.tdkag_az_g_u madgwick.accelZ 
+
+net magX_raw     lcec.0.0.stmag_x_gauss_u madgwick.magX
+net magY_raw     lcec.0.0.stmag_y_gauss_u madgwick.magY
+net magZ_raw     lcec.0.0.stmag_z_gauss_u madgwick.magZ
+
+
+# rx: LHS read -> write RHS
+# net sig_miso_wheel_position    wheel.miso-wheel-position    <= lcec.0.0.miso_wheel_position
+# net sig_miso_wheel_sensitivity wheel.miso-wheel-sensitivity <= lcec.0.0.miso_wheel_sensitivity
+# net sig_miso_wheel_switches    wheel.miso-wheel-switches    <= lcec.0.0.miso_wheel_switches
+# net sig_miso_wheel_counter     wheel.miso-wheel-counter     <= lcec.0.0.miso_wheel_counter
+
+
+start
