@@ -199,9 +199,9 @@ static void updateAHRS(void *arg, long period)
 
         // Calibrate magnetometer
         FusionVector3 uncalibratedMagnetometer = {
-            .axis.x = *(m_data->magX)*100.0, /* replace this value with actual magnetometer x axis measurement in uT, mult with 100 because input is in Gauss */
-            .axis.y = *(m_data->magY)*100.0, /* replace this value with actual magnetometer y axis measurement in uT */
-            .axis.z = *(m_data->magZ)*100.0, /* replace this value with actual magnetometer z axis measurement in uT */
+            .axis.x = ieee_float(m_data->magX)*100.0, /* replace this value with actual magnetometer x axis measurement in uT, mult with 100 because input is in Gauss */
+            .axis.y = ieee_float(m_data->magY)*100.0, /* replace this value with actual magnetometer y axis measurement in uT */
+            .axis.z = ieee_float(m_data->magZ)*100.0, /* replace this value with actual magnetometer z axis measurement in uT */
         };
         FusionVector3 calibratedMagnetometer = FusionCalibrationMagnetic(uncalibratedMagnetometer, FUSION_ROTATION_MATRIX_IDENTITY, hardIronBias);
 		
@@ -228,17 +228,17 @@ static void updateAHRS_NonMag(void *arg, long period)
 	    hal_madgwick_t* m_data = arg;
 		// Calibrate gyroscope
         FusionVector3 uncalibratedGyroscope = {
-            .axis.x = *(m_data->gyroX), /* replace this value with actual gyroscope x axis measurement in lsb */
-            .axis.y = *(m_data->gyroY), /* replace this value with actual gyroscope y axis measurement in lsb */
-            .axis.z = *(m_data->gyroZ), /* replace this value with actual gyroscope z axis measurement in lsb */
+            .axis.x = ieee_float(m_data->gyroX), /* replace this value with actual gyroscope x axis measurement in lsb */
+            .axis.y = ieee_float(m_data->gyroY), /* replace this value with actual gyroscope y axis measurement in lsb */
+            .axis.z = ieee_float(m_data->gyroZ), /* replace this value with actual gyroscope z axis measurement in lsb */
         };
         FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
 
         // Calibrate accelerometer
         FusionVector3 uncalibratedAccelerometer = {
-            .axis.x = *(m_data->accelX), /* replace this value with actual accelerometer x axis measurement in lsb */
-            .axis.y = *(m_data->accelY), /* replace this value with actual accelerometer y axis measurement in lsb */
-            .axis.z = *(m_data->accelZ), /* replace this value with actual accelerometer z axis measurement in lsb */
+            .axis.x = ieee_float(m_data->accelX), /* replace this value with actual accelerometer x axis measurement in lsb */
+            .axis.y = ieee_float(m_data->accelY), /* replace this value with actual accelerometer y axis measurement in lsb */
+            .axis.z = ieee_float(m_data->accelZ), /* replace this value with actual accelerometer z axis measurement in lsb */
         };
         FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
 		
